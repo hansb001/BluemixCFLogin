@@ -24,3 +24,11 @@ API endpoint: https://api.ng.bluemix.net (API version: 2.0.0)
 User:         <your user ID>
 Org:          <your org name>
 Space:        <your space name>
+
+To push (deploy) Your app in Bluemix, use this:
+
+$ cf push -p pathtoApp -m 512M
+
+lounch your app:
+
+http://<yourappname>.stage1.mybluemix.net
